@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Grecia Antica</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+<script type="text/javascript">
+if (document.getElementById) onload = function () {
+	new Date().toLocaleString()
+	setInterval ("document.getElementById ('date-time').firstChild.data = new Date().toLocaleString()", 50)
+}
+</script>
+
+	<div class="header">
+		<div>
+			<a href="index.html" id="logo"><img src="images/logo2.png" alt="logo"></a>
+			<ul>
+				<li>
+					<a href="index.html"><span>A</span>casa</a>
+				</li>
+				<li>
+                	<a href="detalii.html"><span>D</span>etalii</a>
+					
+				</li>
+				<li>
+					<a href="personalitati.html"><span>P</span>ersonalitati</a>
+				</li>
+				<li>
+					<a href="ordinul.html"><span>O</span>rdinul</a>
+				</li>
+				
+				<li class="selected">
+					<a href="contact.html"><span>C</span>ontact</a>
+				</li>
+			</ul>
+			<div>
+				<p>
+					 <span id="date-time">
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="body">
+		<div class="contact">
+			<div>
+				<div>
+					<div class="contact">
+						<h2>GRECIA ANTICA INFORMATII</h2>
+						<div class="address">
+							<span><span>A</span>dresa:</span>
+							<p>
+								Str. Rozelor, nr.42, Mangalia, Constanta, 905500
+							</p>
+							<span><span>T</span>elefon:</span>
+							<p>
+								1-800-999-9999
+							</p>
+							<span><span>F</span>ax:</span>
+							<p>
+								1-800-222-2222
+							</p>
+						</div>
+						<h3><span>P</span>entru <span>O</span>rice <span>I</span>nformatii, <span>C</span>ompletati
+                        <span>F</span>ormularul <span>D</span>e <span>M</span>ai <span>J</span>os.</h3>
+						<form action="index.html">
+							<table>
+								<tr>
+									<td><label for="name"><span>N</span>ume:</label></td>
+									<td><input type="text" id="name"></td>
+								</tr>
+								<tr>
+									<td><label for="email"><span>E</span>mail <span>A</span>ddress:</label></td>
+									<td><input type="text" id="email"></td>
+								</tr>
+								<tr>
+									<td><label for="subject"><span>S</span>ubiect:</label></td>
+									<td><input type="text" id="subject"></td>
+								</tr>
+								<tr>
+									<td><label for="message"><span>M</span>esaj:</label></td>
+									<td><textarea name="message" id="message" cols="30" rows="10"></textarea></td>
+								</tr>
+							</table>
+							<input type="submit" value="Send" id="submit">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<div class="footer">
+		<div>
+			<div>
+				<h3>Abonament</h3>
+				<p>
+					Introduceti adresa de E-Mail.
+				</p>
+				<form action="index.html">
+					<input type="text" value="E-Mail Adress" onblur="this.value=!this.value?'Email Address':this.value;" onfocus="this.select()" onclick="this.value='';">
+					<input type="submit" value="Send">
+				</form>
+			</div>
+			<div>
+				<h4>Ordinul</h4>
+				<ul>
+					<li>
+						<p>
+							<a href="ordinul.html"> Acest stil oferă un aspect suplu, punând accent pe elementele decorative.</a>
+						</p>
+						<span>Ionic</span>
+					</li>
+					<li>
+						<p>
+							<a href="ordinul.html">
+                            Ordinul doric este cel mai simplu dintre toate celelalte ordine grecești.</a>
+						</p>
+						<span>Doric</span>
+					</li>
+					<li>
+						<p>
+							<a href="ordinul.html">Coloana este mai zveltă și are capitelul ornat cu frunze de acant.</a>
+						</p>
+						<span>Corintic</span>
+					</li>
+				</ul>
+			</div>
+			<div class="connect">
+				<h4>Urmareste-ne:</h4>
+				<a href="#" class="facebook">Facebook</a> <a href="#" class="twitter">Twitter</a> <a href="#" class="google">Google+</a>
+			</div>
+		</div>
+		<div>
+			<p>
+				Niță Laura &#169; 2017-2018 | Toate drepturile rezervate
+			</p>
+		</div>
+	</div>
+</body>
+</html>
